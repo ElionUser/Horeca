@@ -1,0 +1,263 @@
+* {font-family:"roboto-regular";}
+
+
+header {
+    width:100%;
+    position:fixed;
+    z-index:100;
+    box-shadow:0px 0px 50px rgba(0,0,0,.3);
+}
+
+/* SOCIAL NETWORKS */
+
+#box-top {
+    background-color:#fff;
+    width:100%;
+    height:30px;
+}
+
+/* NAV */
+
+nav {
+    width:100%;
+    height:100px;
+}
+
+#box-logo {
+    float:left;
+    padding:10px 0px;
+    width:160px;
+    margin:25px 0px 0px 30px;
+}
+
+#box-menu {
+    padding:30px;
+    float:right;
+    display:none;
+}
+
+.icon-menu {color:rgba(255,255,255,.9);}
+
+#logo-img {
+    width:100%;
+}
+
+nav > ul {
+    list-style:none;
+    width:1010px;
+    margin:0px auto;
+}
+
+nav > ul > li {
+    float:left;
+    padding:37px 60px;
+}
+
+nav > ul > li > a {
+    color:rgba(255,255,255,.9) !important;
+    font-size:.9rem;
+}
+
+/* SLIDE */
+
+#slide {
+    width:100%;
+    height:750px;
+    overflow:hidden;
+    background-size:100% 100%;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-image: url(./../imagenes/slide-02-a1.jpg);
+    background-attachment:fixed;
+}
+
+
+
+#box-title-slide {
+    top:300px;
+    left:200px;
+    margin:auto;
+    padding:30px;
+    position:absolute;
+    max-width:350px;
+}
+
+
+/* FONTS - colors */
+.fc-01 {color:#003B7D;}
+.fc-02 {color:#3374bc;}
+.fc-03 {color:#56c1ff;}
+
+/* COLOURS */
+
+.bg-c-01 { background-color:#003B7D;}
+.bg-c-02 {background-color:#302D2E;}
+.bg-c-03 {background-color:#123359;}
+
+/* IMGS */
+
+.img-tetra-section {
+    width:90%;
+}
+
+.img-free{
+    background-image: url(./../imagenes/sec-01-free.jpg);
+    background-size: 100% 100%;
+}
+
+
+/* FLOATS CARDS */
+
+.box-card-float {
+    height:450px;
+    box-shadow:0px 2px 15px rgba(0,0,0,.7);
+    background-color:#ffffff;
+    position:absolute;
+    margin:auto;
+}
+
+#box-card-01 {
+    top:-250px;
+    left:0px;
+    right:0px;
+}
+
+#box-card-02 {
+    top:-150px;
+    left:0px;
+    right:0px;
+}
+
+#box-card-03 {
+    top:-50px;
+    left:0px;
+    right:0px;
+}
+
+/* botones */
+
+.btn-cursos {
+    border-radius:50px;
+    border:2px solid #fff;
+    padding:15px 0px;
+    color:#fff;
+    background-color:transparent;
+}
+
+/* SLIDE SERVICES */
+
+#banner-services-text-vert {
+    color:rgba(255,255,255,.2);
+    font-weight:bold;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    position: absolute;
+    font-size:8rem;
+    top:0px;
+    left:-170px;
+    transition:.4s;
+}
+
+.middle-ilustration {
+    width:350px;
+    position:absolute;
+    top:0px;
+    right:0px;
+    left:0px;
+    margin:0 auto;
+    z-index:20;
+}
+
+
+
+.box-circle-content-img {
+    border-radius:50%;
+    top:50px;
+    right:-200px;
+    width:450px;
+    height:450px;
+    position:relative;
+}
+
+.img-in-circle {
+    width:60%;
+    margin-top:20px;
+}
+
+
+/**/
+
+
+.text-select-us {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    color:rgba(255,255,255,.4);
+    font-size:5rem;
+    position:absolute;
+    height:450px;
+    top:30px;
+    left:-90px;
+}
+
+.back-image-select-us {
+    background-image:url(./../imagenes/selectUs.jpg);
+    background-size:160% 100%;
+    position:relative;
+    height:800px;
+}
+
+#box-content-left {
+    position:absolute;
+    right:0px;
+    top:350px;
+    max-width:450px;
+    height:330px;
+    z-index:15;
+}
+
+#box-content-right {
+    position:absolute;
+    left:0px;
+    top:235px;
+    max-width:450px;
+    height:330px;
+    z-index:15;
+}
+
+
+#box-experience {
+    float:left;
+    padding:15px;
+}
+
+
+#box-security {
+    float:left;
+}
+
+/* FOOTER */
+
+.links-footer {
+    color:rgba(255,255,255,.9)!important;
+    padding:10px;
+    text-decoration:none !important;
+    transition:.2s;
+}
+.links-footer:hover {
+    background-color:#00304f;
+    border-radius:5px;
+    color:rgb(106, 210, 236) !important;
+}
+
+.hr-line {border-top:1px solid rgba(255,255,255,.6);}
+.hr-line-2 {border:1px solid #003B7D;}
+
+/**/
+
+.us-image {
+    overflow:hidden;
+    width:100%;
+    border-radius:50%;
+}
+
+.avatar { width:100%;} 
