@@ -3,9 +3,9 @@ var CntrBanner = 0
 var singleCharts
 
 var data = [
-    {"floattitle":"HOTELERIA","image":"./imagenes/banner-belt.png","text":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit dolore commodi pariatur inventore fuga, doloremque fugiat est ducimus, similique fugit necessitatibus. Iusto nemo maiores in qui cumque ex aliquam quibusdam."},
-    {"floattitle":"RESTAURANTE","image":"./imagenes/banner-res.png","text":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit dolore commodi pariatur inventore fuga, doloremque fugiat est ducimus, similique fugit necessitatibus. Iusto nemo maiores in qui cumque ex aliquam quibusdam."},
-    {"floattitle":"CAFE","image":"./imagenes/banner-cafe.png","text":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit dolore commodi pariatur inventore fuga, doloremque fugiat est ducimus, similique fugit necessitatibus. Iusto nemo maiores in qui cumque ex aliquam quibusdam."}
+    {"floattitle":"HOTELERIA","image":"./imagenes/banner-belt.png","text":"Dirigido a directivos y profesionales ya actualmente trabajando en el propio sector que quieran profundizar , propietarios y emprendedores que quieran aprender a optimizar su desempeño profesional."},
+    {"floattitle":"RESTAURANTE","image":"./imagenes/banner-res.png","text":"Desde ya estamos dispuestos a brindarte las herramientas necesarias a administradores .jefes o encargados sobre la gerencia de bares y restaurantes en áreas que el aspirante sea capaz de diseñar , estructurar , operar y dirigir un negocio gastronómico."},
+    {"floattitle":"CAFE","image":"./imagenes/banner-cafe.png","text":"Aprenderás a llamar a cada cosa por su nombre , a conocer la cultura que concierne al café,  a diferenciarlos , a tratarlos con respeto .En definitiva , a tener múltiples excusas por las que tomar un café y disfrutarlo como se merece."}
 ]
 
 function loadBannerSlide()
