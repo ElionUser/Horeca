@@ -12,26 +12,56 @@
     <title>Mundo Horeca</title>
 </head>
 <body>
+
+
+     <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Terminos y condiciones</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci mollitia aspernatur ipsum ab! Deserunt quisquam repellat rem excepturi quas id. Ullam molestias sapiente excepturi autem adipisci! Assumenda reiciendis nihil repudiandae?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Entiendo</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <header>
         <div id="box-top">
             <div class="container">
-                <div class="col-xl-12 py-1">
+                <div class="col-xl-12 py-2">
                     <div class="row">
                         <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-4"></div>
                         <!-- SOCIAL NETWORKS LINKS -->
                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-8">
                             <div class="row">
                                 <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-3">
-                                    <span class="icon-facebook2 d-block text-center fc-01"></span>
+                                    <a target="_blanck" href="https://www.facebook.com/MundoHoreca">
+                                        <span class="icon-facebook2 d-block text-center fc-01"></span>
+                                    </a>
                                 </div>
                                 <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-3">
-                                    <span class="icon-instagram d-block text-center fc-01"></span>
+                                    <a target="_blanck" href="https://www.instagram.com/mundohoreca/">
+                                        <span class="icon-instagram d-block text-center fc-01"></span>
+                                    </a>
                                 </div>
                                 <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-3">
-                                    <span class="icon-youtube d-block text-center fc-01"></span>
+                                    <a target="_blanck" href="https://www.youtube.com/channel/UC0v3_AskEbYcsYACC2tV0bw">
+                                        <span class="icon-youtube d-block text-center fc-01"></span>
+                                    </a>
                                 </div>
                                 <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-3">
-                                    <span class="icon-twitter d-block text-center fc-01"></span>
+                                    <a target="_blanck" href="https://twitter.com/HorecaMundo">
+                                        <span class="icon-twitter d-block text-center fc-01"></span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -48,16 +78,13 @@
             </div>
             <ul id="menu">
                 <li>
-                    <a href="#" class="df-01">Campus virtual</a>
+                    <a href="index.html" class="df-03">Mundo HORECA</a>
                 </li>
                 <li>
-                    <a href="#" class="df-03">Mundo HORECA</a>
+                    <a target="_blanck" href="https://campusvirtual.mundohoreca.com/" class="df-01">Campus virtual</a>
                 </li>
                 <li>
-                    <a href="#" class="df-01">Tienda</a>
-                </li>
-                <li>
-                    <a href="#" class="df-01">More</a>
+                    <a target="_blanck" href="https://mundohoreca.com/tienda-1" class="df-01">Tienda</a>
                 </li>
             </ul>
         </nav>
@@ -144,7 +171,7 @@
 
 
             <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 p-0 img-book ov-h">
-                <img src="./imagenes/sec-02-00.jpg" class="img-fluid">
+                <img src="./imagenes/daytoday.jpg" class="img-fluid">
             </div>
 
             <div class="col-xl-6 col-lg-6 col-md-4 col-sm-12 py-2">
@@ -273,21 +300,29 @@
             
                 <div class="col-xl-6 col-lg-8 col-md-7 col-sm-8 mx-auto col-8 py-5">
                     <div class="col-xl-10 float-right">
-                        <h1 class="df-03 text-center fc-01">Matthew Adam </h1>
-                        <h2 class="df-04 text-center">Presidente y co fundador </h2>
-                        <p class="df-04 text-center">
-                            Su función en Mundo Horeca incluye la creación de equipos, el marketing estratégico y las iniciativas de desarrollo empresarial, todo con el objetivo de permitir que los socios del mercado sean financieramente independientes y libres de deudas.
-                        </p>
-                        <div class="col-xl-12 py-3">
+                        <h1 class="df-03 text-center fc-01 trans" id="name-ceo"></h1>
+                        <h2 class="df-04 text-center trans" id="expertice-ceo"></h2>
+                        <p class="df-04 text-center trans" id="text-ceo"></p>
+                        <!-- <div class="col-xl-12 py-3">
                             <span class="icon-facebook mr-4"></span>
                             <span class="icon-twitter mr-4"></span>
                             <span class="icon-instagram mr-4"></span>
+                        </div> -->
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-8 mx-auto mt-5">
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 cp" id="btn-ceo-next">
+                                    <span class="icon-chevron-left d-block text-center f-3"></span>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 cp" id="btn-ceo-back">
+                                    <span class="icon-chevron-right d-block text-center f-3"></span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-5 col-sm-8 col-6 mx-auto py-2">
                     <div class="us-image">
-                        <img src="./imagenes/ceo_01.jpg" class="avatar">
+                        <img class="avatar trans" id="image-Ceo">
                     </div>
                 </div>
             </div>
@@ -299,10 +334,6 @@
 
     <section class="col-xl-12 bg-c-02 p-0">
         
-        <!-- ILUSTRATION -->
-
-        <img src="./imagenes/back-ilus-coffe.png" class="middle-ilustration d-none">
-
         <!-- LETRA -->
 
         <h2 id="banner-services-text-vert" class="df-03">HOTELERIA</h2>
@@ -409,31 +440,41 @@
                 <div class="col-xl-4 col-lg-3 col-md-4 col-sm-5 col-9 mx-auto text-white">
                     <div class="row">
                         <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 py-3 cp">
-                            <span class="icon-facebook2 d-block text-center"></span>
+                            <a target="_blanck" href="https://www.facebook.com/MundoHoreca" style="color:#fff !important;text-decoration:none;">
+                                <span class="icon-facebook2 d-block text-center"></span>
+                            </a>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 py-3 cp">
-                            <span class="icon-instagram d-block text-center"></span>
+                            <a target="_blanck" href="https://www.instagram.com/mundohoreca/" style="color:#fff !important;text-decoration:none;">
+                                <span class="icon-instagram d-block text-center"></span>
+                            </a>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 py-3 cp">
-                            <span class="icon-youtube d-block text-center"></span>
+                            <a target="_blanck" href="https://www.youtube.com/channel/UC0v3_AskEbYcsYACC2tV0bw" style="color:#fff !important;text-decoration:none;">
+                                <span class="icon-youtube d-block text-center"></span>
+                            </a>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 py-3 cp">
-                            <span class="icon-twitter d-block text-center"></span>
+                            <a target="_blanck" href="https://twitter.com/HorecaMundo" style="color:#fff !important;text-decoration:none;">
+                                <span class="icon-twitter d-block text-center"></span>
+                            </a>
                         </div>
                     </div>
                 </div>
 
+
                 <div class="col-xl-10 mx-auto py-2 my-2 text-center">
                     <div class="row">
                         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-10 mx-auto mt-4 cp">
-                            <a href="#" class="links-footer df-03">Mundo HORECA</a>
+                            <a href="index.html" class="links-footer df-03">Mundo HORECA</a>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-10 mx-auto mt-4 cp">
-                            <a href="#" class="links-footer df-03">Campus virtual</a>
+                            <a target="_blanck" href="https://campusvirtual.mundohoreca.com/" class="links-footer df-03">Campus virtual</a>
                         </div>
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-10 mx-auto mt-4 cp">
-                            <a href="#" class="links-footer df-03">Terminos y condiciones</a>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-10 mx-auto mt-4 cp" data-toggle="modal" data-target="#staticBackdrop">
+                            <span class="links-footer df-03">Terminos y condiciones</span>
                         </div>
+                        
                         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-10 mx-auto mt-4 cp">
                             <a href="#" class="links-footer df-03">Testimonios de alumnos</a>
                         </div>
@@ -441,9 +482,9 @@
                 </div>
                 <div class="col-xl-12 py-4">
                     <div class="row">
-                        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6 mx-auto">
+                        <!-- <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6 mx-auto">
                             <img src="./imagenes/logo-footer.png" class="img-fluid">
-                        </div>
+                        </div> -->
                         <div class="col-xl-8 col-lg-8 col-md-8 col-sm-10 col-10 mx-auto">
                             <p class="df-04 f-6 py-4 text-white text-center">
                                 Las necesidades académicas del estudiante son atendidas de forma personalizada  por profesores con experiencia en el área,  monitores y asistentes académicos encargados de orientar,acompañar y asistir la trayectoria académica del estudiante para garantizar su aprendizaje
@@ -462,6 +503,7 @@
 
     <script src="js/toggle-menu.js"></script>
     <script src="js/banner-slide.js"></script>
+    <script src="js/ceo-slide.js"></script>
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
